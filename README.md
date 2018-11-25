@@ -1,8 +1,8 @@
-### Stopwords Guilan NLP
+## Stopwords Guilan NLP
 
 This is  a comprehensive stopwords for natural language processing and text mining.
 
-### Installation
+## Installation
 
 [Now `Stopwords-GuilanNLP` is on PyPI!](http://pypi.python.org/pypi/stop-words)
 <br>
@@ -12,6 +12,6 @@ This is  a comprehensive stopwords for natural language processing and text mini
 `$ python3 setup.py install`
 
 
-### Supported Languages
+## Supported Languages
    * Persian
 
