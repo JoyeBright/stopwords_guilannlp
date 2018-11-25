@@ -11,7 +11,7 @@ setuptools.setup(
     description="A comprehensive package for stopwords in NLP and text mining",
     long_description_content_type="text/markdown",
     long_description=open('README.md').read(),
-    url="https://github.com/joyebright/Stopword-GuilanNLP",
+    url="https://github.com/joyebright/Stopwords-GuilanNLP",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
