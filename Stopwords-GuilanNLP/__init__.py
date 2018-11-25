@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 # I'd like to concat the date of releasing
-__VERSION__ = [11, 25, 2018]
+__VERSION__ = [11, 2018]
 
 current_directory = os.path.dirname(os.path.realpath(__file__))
 languages_directory = os.path.join(current_directory, 'Languages')
