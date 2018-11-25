@@ -8,7 +8,7 @@ This is  a comprehensive stopwords for natural language processing and text mini
 <br>
    1.`$ pip3 install Stopwords-GuilanNLP`
 <br>
-   2.`$ git clone --recursive git://github.com/JoyeBright/Stopwords-GuilanNLP.git`
+   2.`$ git clone --recursive git://github.com/JoyeBright/Stopwords-GuilanNLP.git`<br>
 `$ python3 setup.py install`
 
 
