@@ -10,3 +10,5 @@ venv/
 \.DS_Store
 
 Stopwords_GuilanNLP\.egg-info/
+
+Stopwords-GuilanNLP/__pycache__/
