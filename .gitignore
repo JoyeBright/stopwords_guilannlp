@@ -1,0 +1,12 @@
+
+\.idea/
+
+build/
+
+dist/
+
+venv/
+
+\.DS_Store
+
+Stopwords_GuilanNLP\.egg-info/
