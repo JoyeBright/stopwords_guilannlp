@@ -1,9 +1,7 @@
 import os
 import pandas as pd
-# import datetime
 
 # I'd like to concat the date of releasing
-# date = datetime.datetime.now()
 __VERSION__ = [11, 2018]
 
 current_directory = os.path.dirname(os.path.realpath(__file__))
