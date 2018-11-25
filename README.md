@@ -19,6 +19,6 @@ $ python3 setup.py install
 ### Usage
 
 
-### Supported Langu
+### Supported Languages
    * Persian
 
