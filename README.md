@@ -4,7 +4,7 @@ This is  a comprehensive stopwords for natural language processing and text mini
 
 ## Installation
 
-[Now `stopwords_guilannlp` is on PyPI!](https://pupi.org/project/stopwords-guilannlp)
+[Now `stopwords_guilannlp` is on PyPI!](https://pypi.org/project/stopwords-guilannlp)
 <br>
    * Download via PyPI: `$ pip3 install stopwords_guilannlp`
    * Or clone the repo: `$ git clone --recursive git://github.com/JoyeBright/Sstopwords_guilannlp.git`
