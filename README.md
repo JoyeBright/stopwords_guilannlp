@@ -4,10 +4,10 @@ This is  a comprehensive stopwords for natural language processing and text mini
 
 ## Installation
 
-[Now `Stopwords-GuilanNLP` is on PyPI!](http://pypi.python.org/pypi/stop-words)
+[Now `stopwords_guilannlp` is on PyPI!](https://pupi.org/project/stopwords-guilannlp)
 <br>
-   * Download via PyPI: `$ pip3 install Stopwords-GuilanNLP`
-   * Or clone the repo: `$ git clone --recursive git://github.com/JoyeBright/Stopwords-GuilanNLP.git`
+   * Download via PyPI: `$ pip3 install stopwords_guilannlp`
+   * Or clone the repo: `$ git clone --recursive git://github.com/JoyeBright/Sstopwords_guilannlp.git`
    * Then install it: `$ python3 setup.py install`
 
 
