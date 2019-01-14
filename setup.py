@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="stopwords_guilannlp",
-    version=__import__("stopwords_guilannlp").stopword_version() + "." + "3.4",
+    version=__import__("stopwords_guilannlp").stopword_version() + "." + "3.5",
     author="Javad PourMostafa",
     author_email="javad.pourmostafa@gmail.com",
     description="A comprehensive package for stopwords in NLP and text mining",
