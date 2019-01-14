@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 # I'd like to concat the date of releasing
-__VERSION__ = [1, 2019]
+__VERSION__ = [2, 2019]
 
 current_directory = os.path.dirname(os.path.realpath(__file__))
 languages_directory = os.path.join(current_directory, 'Languages')
@@ -67,4 +67,3 @@ def stopwords_output(language, output):
         return stopwords(language, output)
     except StopWordError:
         print("StopWordError, Contact with developer!")
-
