@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 # I'd like to concat the date of releasing
-__VERSION__ = [11, 2018]
+__VERSION__ = [12, 2018]
 
 current_directory = os.path.dirname(os.path.realpath(__file__))
 languages_directory = os.path.join(current_directory, 'Languages')
@@ -23,6 +23,10 @@ def converter(stopword_file, output):
     if output == "nar":
         # Numpy Array
         return stopword_file.values
+    if output == "set":
+        # Set
+        numpy_array = stopword_file.values
+        return set(numpy_array.flatten())
     else:
         # List
         ls = stopword_file.values.T.tolist()
@@ -35,7 +39,7 @@ def ingest(stopword_file, output):
     output = output.lower()
     # Check the type of output
     try:
-        if output != "df" and output != "nar" and output != "ls":
+        if output != "df" and output != "nar" and output != "set" and output != "ls":
             raise ValueError
     except ValueError:
         print("There is no such an output! ...")
