@@ -1,23 +1,7 @@
-## Stopwords Guilan NLP
+## NLP Stopwords
 
 This is  a comprehensive stopwords for natural language processing and text mining.
 
-## Installation
-
-[Now stopwords_guilannlp is on PyPI!](https://pypi.org/project/stopwords-guilannlp)
-<br>
-   * Download via PyPI: 
-   ```
-   $ pip3 install stopwords_guilannlp
-   ```
-   * Or clone the repo: 
-   ```
-   $ git clone --recursive git://github.com/JoyeBright/Sstopwords_guilannlp.git
-   ```
-   * Then install it: 
-   ```
-   $ python3 setup.py install
-   ```
 
 ## Usage
  ```
@@ -87,3 +71,7 @@ This is  a comprehensive stopwords for natural language processing and text mini
    * Numpy Array
    * Set
    * List
+
+## Related Repository
+* [persian-stop-word](https://github.com/amirshnll/persian-stop-word/)
+* [stopwords-json](https://github.com/6/stopwords-json)
