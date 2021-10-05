@@ -16,7 +16,7 @@ setuptools.setup(
     zip_safe=False,
     package_data={
         'stopwords_guilannlp': [
-            'Languages/*.csv'
+            'Languages/*.json'
         ]
     },
     classifiers=[

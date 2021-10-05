@@ -35,7 +35,7 @@ def converter(stopword_file, output):
 
 
 def ingest(stopword_file, output):
-    file = pd.read_csv(stopword_file, sep="\n", encoding="utf-8")
+    file = pd.read_json(stopword_file, encoding="utf-8")
     output = output.lower()
     # Check the type of output
     try:
@@ -50,7 +50,7 @@ def ingest(stopword_file, output):
 def stopwords(language, output):
     filename = language.lower()
     stopword_directory = os.path.join(languages_directory, filename)
-    stopword_file = stopword_directory + ".csv"
+    stopword_file = stopword_directory + ".json"
     # Check whether the language is supported or not
     try:
         open(stopword_file, 'r')
