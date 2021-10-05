@@ -8,3 +8,9 @@ dist/
 venv/
 
 \.DS_Store
+
+Stopwords_GuilanNLP\.egg-info/
+
+Stopwords-GuilanNLP/__pycache__/
+
+stopwords_guilannlp/__pycache__/

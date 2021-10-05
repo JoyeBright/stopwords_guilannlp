@@ -4,18 +4,18 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="nlpstopwords",
-    version=__import__("nlpstopwords").stopword_version() + "." + "3.5",
-    author="Amir Shokri",
-    author_email="amirsh.nll@gmail.com",
+    name="stopwords_guilannlp",
+    version=__import__("stopwords_guilannlp").stopword_version() + "." + "3.5",
+    author="Javad PourMostafa",
+    author_email="javad.pourmostafa@gmail.com",
     description="A comprehensive package for stopwords in NLP and text mining",
     long_description_content_type="text/markdown",
     long_description=open('README.md').read(),
-    url="https://github.com/amirshnll/nlpstopwords",
+    url="https://github.com/joyebright/stopwords_guilannlp",
     packages=setuptools.find_packages(),
     zip_safe=False,
     package_data={
-        'nlpstopwords': [
+        'stopwords_guilannlp': [
             'Languages/*.json'
         ]
     },
