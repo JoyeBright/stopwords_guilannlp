@@ -8,7 +8,7 @@ setuptools.setup(
     version=__import__("stopwords_guilannlp").stopword_version() + "." + "3.5",
     author="Javad Pourmostafa",
     author_email="javad.pourmostafa@gmail.com",
-    description="A comprehensive package for stopwords in NLP and text mining",
+    description="A python package to be used in removing stopwords in different languages.",
     long_description_content_type="text/markdown",
     long_description=open('README.md').read(),
     url="https://github.com/joyebright/stopwords_guilannlp",
