@@ -1,6 +1,6 @@
 ## Stopwords Guilan NLP
 
-This is  a comprehensive stopwords for natural language processing and text mining.
+A python package to be used in removing stopwords in different languages.
 
 ## Installation
 
