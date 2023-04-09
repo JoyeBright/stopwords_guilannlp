@@ -12,7 +12,7 @@ A python package to be used in removing stopwords in different languages.
    ```
    * Or clone the repo: 
    ```
-   $ git clone --recursive git://github.com/JoyeBright/Sstopwords_guilannlp.git
+   $ git clone --recursive git://github.com/JoyeBright/stopwords_guilannlp.git
    ```
    * Then install it: 
    ```
